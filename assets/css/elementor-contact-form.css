@@ -1,0 +1,42 @@
+.elementor-contact-form-wrapper.style-1{
+
+}
+
+
+.elementor-contact-form-wrapper.style-1 textarea,
+.elementor-contact-form-wrapper.style-1 input:not([type='submit']){
+    background-color: rgba(133, 150, 167, 0.15);
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    resize: none;
+    width: 100%;
+}
+.elementor-contact-form-wrapper.style-1 textarea:focus,
+.elementor-contact-form-wrapper.style-1 input:not([type='submit']):focus{
+    outline: none;
+}
+.elementor-contact-form-wrapper.style-1 input[type='submit']{
+    -webkit-box-shadow: 0px 10px 20px -8px #ff8686;
+    box-shadow: 0px 10px 20px -8px #ff8686;
+    background: #FF8686;
+    font-size: 15px;
+    line-height: 30px;
+    border-radius: 40px;
+    font-weight: 400;
+    padding: 15px 20px;
+    display: table;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    text-transform: capitalize;
+    min-width: 230px;
+    text-align: center;
+}
+.elementor-contact-form-wrapper.style-1 label {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #585858;
+}
